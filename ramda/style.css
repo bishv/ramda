@@ -1,0 +1,133 @@
+
+.name {
+    font-family: 'Myriad Pro';
+    color:  #000000;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 5%;
+}
+
+.mda {
+    color:  #4bcaff;
+}
+
+.menu_fon {
+    background-color:  #35444f;
+    width: 80%;
+    height: 69px;
+    margin-left: 5%;
+}
+
+.menu_header {
+    font-family: 'Myriad Pro';
+    display: flex;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: left;
+    list-style: none;
+}
+
+.menu_header_item {
+    padding: 20px 60px;
+    text-align: center;
+}
+
+.menu_header_item > a {
+    color:  #ffffff;
+}
+
+.menu_header_item:hover {
+    background-color:  #222f3a;
+    border-left: 0.1px solid grey;
+    border-right: 0.1px solid grey;
+}
+
+.menu_main {
+    margin-left: 5%;
+    border: 1px solid #35444f;
+    width: 342px;
+    height: 355px;
+    background-color: #ffffff;
+    margin-top: 50px;
+    float: left;
+}
+
+.menu_main_items {
+    list-style: none;
+    font-size: 27px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+.menu_main_item {
+    color: #35444f;
+    padding: 20px 40px;
+    text-align: left;
+}
+
+.menu_main_item:hover {
+    background-color: lightgray;
+    color:  #000000;
+    padding: 20px 70px;
+    font-weight: 600;
+}
+
+.main_img {
+    border: 1px solid #35444f;
+    width: 50%;
+    height: 527px;
+    margin: 50px 4%;
+    background-size: 35%;
+    background-position: center;
+    float: left;
+}
+
+.main_text {
+    float: right;
+    width: 50%;
+    height: auto;
+    margin-right: 15%;
+    margin-bottom: 100px;
+}
+
+.menu_footer {
+    width: 80%;
+    height: 69px;
+    margin-left: 5%;
+    text-align: left;
+    background-color: #999999;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.menu_footer_items {
+    display: flex;
+    list-style: none;
+    padding: 5px 30px;
+    margin-right: auto;
+    width: 750px;
+}
+
+.menu_footer_item {
+    margin-right: 3%;
+    color:  #0c1927;
+    font-size: 24px;
+}
+
+.menu_footer_item > a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.menu_footer_item > a:hover {
+    text-decoration: underline;
+    color: #3181a6;
+}
+
+.copyright {
+    float: right;
+    padding: 20px 30px;
+    font-size: 24px;
+}
